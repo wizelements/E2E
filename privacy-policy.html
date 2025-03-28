@@ -1,90 +1,122 @@
-# Privacy Policy for E2E GPT Developer Tool
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy | E2E GPT Developer Tool</title>
+  <style>
+    body {
+      font-family: system-ui, sans-serif;
+      max-width: 800px;
+      margin: auto;
+      padding: 2rem;
+      line-height: 1.6;
+      color: #1a1a1a;
+    }
+    h1, h2, h3 {
+      color: #222;
+    }
+    code {
+      background: #f4f4f4;
+      padding: 0.1rem 0.4rem;
+      border-radius: 4px;
+    }
+    a {
+      color: #0077cc;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #ccc;
+      margin: 2rem 0;
+    }
+  </style>
+</head>
+<body>
 
-_Last Updated: March 27, 2025_
+<h1>Privacy Policy for E2E GPT Developer Tool</h1>
+<p><em>Last Updated: March 27, 2025</em></p>
 
-Welcome to the E2E GPT Developer Tool. This privacy policy outlines how your information is handled when using this tool, specifically regarding GPT Actions that interact with your development environment for testing and validation purposes.
+<p>
+  Welcome to the E2E GPT Developer Tool. This privacy policy outlines how your information is handled when using this tool, specifically regarding GPT Actions that interact with your development environment for testing and validation purposes.
+</p>
 
----
+<hr />
 
-## 1. Overview
+<h2>1. Overview</h2>
+<p>
+  This tool is designed for software developers who wish to validate project structure, authentication, deployment, and related features through a GPT interface. It interacts with locally hosted or tunneled endpoints but does <strong>not collect</strong>, <strong>store</strong>, or <strong>transmit</strong> personal data beyond the scope of development-related payloads.
+</p>
 
-This tool is designed for software developers who wish to validate project structure, authentication, deployment, and related features through a GPT interface. It interacts with locally hosted or tunneled endpoints but does **not collect**, **store**, or **transmit** personal data beyond the scope of development-related payloads.
+<h2>2. What We Collect</h2>
+<p>
+  The E2E GPT Developer Tool only processes the following <strong>temporary</strong> information for the purpose of code/project validation:
+</p>
+<ul>
+  <li>File and folder names (e.g., <code>package.json</code>, <code>auth.js</code>)</li>
+  <li>Code-related metadata (e.g., type of files, project structure)</li>
+  <li>Simulated prompts or messages (for chat-based review)</li>
+  <li>Public endpoints temporarily exposed by the user for testing</li>
+</ul>
+<p><strong>⚠️ No personal data, credentials, secrets, or tokens should ever be included in any GPT message or tunnel interaction.</strong></p>
 
----
+<h2>3. How This Data Is Used</h2>
+<p>Data submitted via GPT Actions is only used for the following purposes:</p>
+<ul>
+  <li>Project structure validation (e.g., <code>/progress/init</code>)</li>
+  <li>Authentication implementation checks</li>
+  <li>Membership, payment, and core logic analysis</li>
+  <li>Deployment and environment review</li>
+  <li>Final project audit (non-sensitive)</li>
+</ul>
+<p>This data is not stored, tracked, or logged.</p>
 
-## 2. What We Collect
+<h2>4. Third-Party Services</h2>
+<p>
+  The E2E GPT Developer Tool itself uses no cookies, trackers, analytics, or third-party APIs. GPT interactions are subject to
+  <a href="https://openai.com/policies/terms-of-use" target="_blank">OpenAI’s Terms of Use</a> and data handling policies.
+</p>
+<p>
+  Any temporary tunneling service (e.g., Cloudflare Tunnel or LocalTunnel) is configured and controlled <strong>by you</strong>, the developer.
+</p>
 
-The E2E GPT Developer Tool only processes the following **temporary** information for the purpose of code/project validation:
+<h2>5. Data Storage & Retention</h2>
+<p>
+  We do <strong>not</strong> store or retain any data from:
+</p>
+<ul>
+  <li>Your local server</li>
+  <li>Your GPT prompts</li>
+  <li>The responses of your local endpoints</li>
+</ul>
+<p>Data exists <strong>only during the live GPT session</strong> and is discarded immediately after.</p>
 
-- File and folder names (e.g., `package.json`, `auth.js`)
-- Code-related metadata (e.g., type of files, project structure)
-- Simulated prompts or messages (for chat-based review)
-- Public endpoints temporarily exposed by the user for testing
+<h2>6. Security</h2>
+<p>
+  All exposed local endpoints used during validation are:
+</p>
+<ul>
+  <li>Created and controlled by the developer</li>
+  <li>Only accessible via a public tunnel you configure</li>
+  <li>Recommended to be <strong>temporary</strong>, secured, and closed when not in use</li>
+</ul>
+<p><strong>We recommend you do not expose actual sensitive services via tunneling.</strong></p>
 
-⚠️ **No personal data, credentials, secrets, or tokens should ever be included in any GPT message or tunnel interaction.**
+<h2>7. Developer Responsibility</h2>
+<p>You, the developer, are responsible for:</p>
+<ul>
+  <li>Ensuring no sensitive information is exposed during use</li>
+  <li>Properly configuring and closing public tunnels</li>
+  <li>Reviewing generated code and recommendations before applying them</li>
+</ul>
+<p>This tool is meant strictly for <strong>local development support</strong>, not production environments.</p>
 
----
+<h2>8. Contact</h2>
+<p>
+  If you have questions or concerns about this policy or tool usage, please contact the developer or refer to the tool’s documentation repository.
+</p>
 
-## 3. How This Data Is Used
+<hr />
+<p><strong>Thank you for using the E2E GPT Developer Tool responsibly.</strong></p>
 
-Data submitted via GPT Actions is only used for the following purposes:
-
-- Project structure validation (e.g., `/progress/init`)
-- Authentication implementation checks
-- Membership, payment, and core logic analysis
-- Deployment and environment review
-- Final project audit (non-sensitive)
-
-This data is not stored, tracked, or logged.
-
----
-
-## 4. Third-Party Services
-
-The E2E GPT Developer Tool itself uses no cookies, trackers, analytics, or third-party APIs. GPT interactions are subject to [OpenAI’s Terms of Use](https://openai.com/policies/terms-of-use) and data handling policies.
-
-Any temporary tunneling service (e.g., Cloudflare Tunnel or LocalTunnel) is configured and controlled **by you**, the developer.
-
----
-
-## 5. Data Storage & Retention
-
-We do **not** store or retain any data from:
-
-- Your local server
-- Your GPT prompts
-- The responses of your local endpoints
-
-Data exists **only during the live GPT session** and is discarded immediately after.
-
----
-
-## 6. Security
-
-All exposed local endpoints used during validation are:
-- Created and controlled by the developer
-- Only accessible via a public tunnel you configure
-- Recommended to be **temporary**, secured, and closed when not in use
-
-We recommend you **do not expose actual sensitive services** via tunneling.
-
----
-
-## 7. Developer Responsibility
-
-You, the developer, are responsible for:
-- Ensuring no sensitive information is exposed during use
-- Properly configuring and closing public tunnels
-- Reviewing generated code and recommendations before applying them
-
-This tool is meant strictly for **local development support**, not production environments.
-
----
-
-## 8. Contact
-
-If you have questions or concerns about this policy or tool usage, please contact the developer or refer to the tool’s documentation repository.
-
----
-
-**Thank you for using the E2E GPT Developer Tool responsibly.**
+</body>
+</html>
